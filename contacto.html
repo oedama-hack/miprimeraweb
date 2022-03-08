@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>mi web</title>
+        <link rel="stylesheet" 
+              href="style.css" 
+              title="css" 
+              type="text/css"/>
+        
+          <link rel="stylesheet"
+               type="text/css"
+             href="librerias/fontawesome/css/all.css"/>
+                 <style type="text/css" media="all">
+        .container1 {
+            background-color: #DCDCDC;
+            border-radius: 3px;
+            box-shadow: 0 5px 5px 8px #333;
+            border: inset 3px #3751FF;
+            margin: 40px;
+            width: 215px;
+        }
+        .cajas1 {
+            border-radius: 3px;
+        }
+        .col-50 {
+            background-color: #DCDCDC;
+            padding: 5px;
+        }
+        h3 {
+            text-align: center;
+        }
+        input {
+            border: solid 1px gray;
+        }
+        
+        .span {
+            font-size: 15px;
+        }
+        #envair {
+            border: solid 1px #AAA;
+            border-radius: 3px;
+            background-color: #3B51FF;
+            width: 110px;
+            height: 20px;
+            color: black;
+            margin: 7px;
+            position: relative;
+            left: 39px;
+            top: 15px;
+        }
+        #envair:hover {
+            background-color: black;
+            color: white;
+        }
+        textarea{
+            resize: none;
+            border: solid 1px gray;
+        }
+
+    </style>
+    <link rel="stylesheet"
+    type="text/css"
+    href="fontawesome-free-5.15.4-web/css/all.css"/>
+    </head>
+    <body>
+            <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Navigation -->
+<header>
+    <nav>
+        <div class="containe">
+            <ul>
+               <li>
+                   <a href="index.html">
+                   <img src="img/negocios.png" 
+                   alt=""
+                   height="40px"/>
+                  </a>
+               </li>
+     <li><a href="index.html">inicio</a></li>
+     <li><a href="servicios.html">servicios</a></li>
+     <li><a href="contacto.html">contacto</a></li>
+     <li><a href="nosotros.html">nosotros</a></li>  
+            </ul>
+        </div>
+    </nav>
+</header>
+
+ <div class="jumbotron">
+    <div class="container">
+         <h1>Contactanos</h1>
+     <p>Si deseas servicios o tomar algun curso de los que impartimos, contactame por mis redes sociales:</p>
+     <p><em>solo da clip o pulsa en el nombre de la red social por la cual te gustaria comunicarte conmigo</em>
+     </p>
+       <ul id="lol">
+           
+           <li id="whatsapp">
+               <a href="https://wa.me/5217451183443?text=Hola%20me%20interesan%20los%20cursos%20que%20inparte,%20me%20podria%20dar%20mas%20información%20porfavor">
+                   <b class="rdes">WhatsApp</b></a>
+           </li>
+           
+           <li id="facebook">
+               <a href="https://www.facebook.com/amadeo.flores.56679">
+                   <b class="rdes">Facebook</b></a>
+           </li>
+           
+           <li id="gmail">
+               <a href="mailto:amadeoflores336@gmail.com?subject=Cursos hackin">
+                   <b class="rdes">Gmail</b></a>
+           </li>
+           
+           <li id="telegram"><a href="https://t.me/shadowbarcode"><b class="rdes">Telegram</b></a>
+           </li>
+       </ul>
+       <hr />
+       <h3>Oh! dejame un mensaje en el siguiente formulario para despues yo comunicarme contigo👇</h3>
+    <div class="row">
+        <div class="col-75">
+            <div class="container1">
+                <form action="card.php" method="POST">
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>form de contacto</h3>
+                            <label for="fname">
+                       <i class="fa fa-use"></i> nombre completo:</label>
+                            <br>
+                            <input type="text" name="nombre" class="cajas1" value="" placeholder="escriba su nombre" required="" />
+                            <br>
+                            <br>
+                            <label for="email">
+                         <i class="fa fa-envelope"></i> email:</label>
+                            <br>
+                            <input type="email" name="email" class="cajas1" value="" placeholder="escriba su email" />
+                            <br>
+                            <br>
+                            <label for="Mensaje">Mensaje:</label><br>
+                             <textarea class="cajas1" name="mensaje" id=Mensaje rows="4" cols="25" placeholder="escribe tu mensaje aqui"></textarea>
+                            <br>
+                            <div class="caja">
+                                <input type="submit" name="enviar" id="envair" value="ENVIAR MENSAJE" />
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+                <hr />
+            </div>
+            <hr />
+                   <p><em>Creado  por Amadeo F.M. y actualizado el 03 /02/2022.</em></p>
+        </div>
+    </div>
+  </div>
+</div>
+    </body>
+</html>

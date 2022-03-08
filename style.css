@@ -1,0 +1,124 @@
+body{
+    background-color: #DCDCDC;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+/*con hover cambiamos el color del enlece selecionado*/
+li a:hover {
+    background-color: black;
+}
+.containe {
+    background-color: #DCDCDC;
+}
+ p a {
+ text-decoration: none;
+}
+
+.contacto1 {
+    background-color: #DCDCDC;
+    color: blue;
+}
+#jsjs{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#contactar {
+display: block;
+font-size: 30px;
+background-color: #353535;
+text-align: center;
+width: 300px;
+height: 30px;
+border: solid 1px #000000;
+border-radius: 4px;
+}
+
+p em {
+    font-size: 10px;
+}
+
+#facebook {
+    background-color: blue;
+}
+
+#whatsapp {
+    background-color: green;
+}
+#gmail {
+    background-color: red;
+}
+#telegram {
+    background-color: #7B68EE;
+}
+#lol {
+    background-color: #DCDCDC;
+}
+
+
+
+.img1{
+  display: block;
+  position: relative;		
+  width: 300px;
+}
+
+.texto2 {
+  background-color: rgba(255,255,255,.8);
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+}
+
+.img3 {
+    display: block;
+    position: relative;
+    width: 300px;
+}
+
+.text3 {
+    background-color: rgba(255,255,255,.8);
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    padding: 5px;
+    width: 300px;
+}
+
+.rdes {
+    font-size: 12;
+}
+
+.lol {
+    width: 140px;
+    float: left;
+}
+#caja5{
+    font-size: 12px;
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    left: 10px;
+}
